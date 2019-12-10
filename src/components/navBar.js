@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Navbar, Container } from "react-bulma-components/dist";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const NavBar = () => {
   const [isVisibleMobile, setIsVisibleMobile] = useState(false);
@@ -43,6 +43,9 @@ const NavBar = () => {
             <Navbar.Item href="#contact">
               <FontAwesomeIcon icon={faEnvelope} />
               &nbsp;Contact
+            </Navbar.Item>
+            <Navbar.Item href="#contact">
+              <FontAwesomeIcon icon={faShoppingCart} />
             </Navbar.Item>
           </Navbar.Container>
         </Navbar.Menu>
