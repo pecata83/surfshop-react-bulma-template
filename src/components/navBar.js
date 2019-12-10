@@ -41,10 +41,11 @@ const NavBar = () => {
           </Navbar.Container>
           <Navbar.Container position="end">
             <Navbar.Item href="#contact">
+              Contact&nbsp;
               <FontAwesomeIcon icon={faEnvelope} />
-              &nbsp;Contact
             </Navbar.Item>
             <Navbar.Item href="#contact">
+              Cart&nbsp;
               <FontAwesomeIcon icon={faShoppingCart} />
             </Navbar.Item>
           </Navbar.Container>
