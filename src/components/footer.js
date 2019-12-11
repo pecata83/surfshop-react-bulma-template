@@ -67,7 +67,7 @@ export default () => {
             >
               <Content style={{ textAlign: "center" }}>
                 <p>
-                  Windsurf Shop Template by{" "}
+                  Surf Shop Template by{" "}
                   <a href="https://petarstefanov.com">Petar Stefanov</a>.
                 </p>
               </Content>
