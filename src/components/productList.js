@@ -5,12 +5,12 @@ import { Fade } from "react-reveal";
 const productList = [
   {
     image: "/img/board1.jpg",
-    title: "Fanatic Textreme",
+    title: "Fanatic Gecko",
     price: 500
   },
   {
     image: "/img/board2.jpg",
-    title: "Fanatic Skate",
+    title: "Fanatic Grip",
     price: 700
   },
   {
